@@ -15,7 +15,6 @@ margin-top: 5vh;
 
 .video{
     justify-content: center;
-    border: 2px solid red;
     height: 90vh;
     width: 100vw; 
 }
@@ -27,27 +26,23 @@ margin-top: 5vh;
     margin-top: 5vh;
     justify-content: center;
     width: 100vw;
-    border: 2px solid red;
 }
 .container1{
     display: flex;
     width: 30vw;
     font-size: 20px;
-    border: 2px solid red;
 }
 
 .container2{
     display: flex;
     flex-direction: column;
     width: 30vw;
-    border: 2px solid red;
 }
 
 .container3{
     display: flex;
     flex-direction: row;
     width: 30vw;
-    border: 2px solid red;
 }
 
 .product1{
@@ -134,7 +129,6 @@ margin-top: 5vh;
 
 .product3{
     display: block;
-    border: 2px solid red;
     width: 100%;
     height: 50vh;
     margin: 20px 0 20px 20px;
@@ -186,7 +180,7 @@ margin-top: 5vh;
 
     .product2-2{
         width: 43vw;
-        margin: 2.5vw 0 0 4vw
+        margin: 2vw 0 0 4vw
     }
 
     .container3{
@@ -195,7 +189,7 @@ margin-top: 5vh;
     }
 }
 
-@media (min-width: 360px) and (max-width: 600px){
+@media (min-width: 0px) and (max-width: 600px){
     .video{
         height: 25vh;
     }
@@ -215,23 +209,26 @@ margin-top: 5vh;
     }
 
     .container2{
-        flex-direction: row;
+        flex-direction: column;
         align-items: end;
         order: 2;
         width: 90vw;
     }
 
     .product2-1{
-        width: 43vw;
+        width: 90vw;
     }
 
     .product2-2{
-        width: 43vw;
-        margin: 4vw 0 0 4vw
+        width: 90vw;
+        margin: 4vw 0 0 0
     }
 
     .container3{
         order: 3;
+        width: 100vw;
+    }
+    .product3{
         width: 90vw;
     }
 }
