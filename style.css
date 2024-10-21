@@ -149,10 +149,15 @@ margin-top: 5vh;
     opacity: 1;
 }
 
-.high{
+.high1{
     height: 50%; 
-    border: solid 2px red;
     background-image: url("https://sun9-62.userapi.com/impg/ffIUyOd438CqK1dUNuXSnmpUePDeMNQgTVfQSw/XJ-Rs6hAAw4.jpg?size=510x510&quality=95&sign=cd45796e977a18384442ae2d69b84458&type=album");
+    background-size: cover;
+}
+
+.high2{
+    height: 50%; 
+    background-image: url("https://static.insales-cdn.com/images/products/1/5194/464663626/WhatsApp_Image_2021-08-17_at_14.29.35.jpeg");
     background-size: cover;
 }
 
