@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="content">
+    <div class="content" id="content">
         <div class="video">
             <center><iframe width="90%" height="90%" src="https://rutube.ru/play/embed/9c32d8d6a6d1722eb2dc57e46a0d842c/?autoplay=1" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></center></div>
             <div class="catalog">
                 <div class="container1">
-                    <div class="product1"><a href="ttt">Оставить заявку</a></div>
+                    <div class="product1"><button id="showFormButton">Оставить заявку</button></div>
                 </div>
                 <div class="container2">
                     <div class="product2-1">Голубика лесная, 200 г</div>
@@ -23,5 +23,31 @@
                 </div>
             </div>
     </div>
+
+
+    <div class="form-container" id="formContainer">
+    <h2>Оставить заявку</h2>
+    <form>
+      <input type="text" id="name" name="name" required placeholder="Ваше имя *" oninvalid="setCustomValidity('Имя должно содержать 2-20 символов')">
+
+      <p>
+      <input type="tel" id="phone" name="phone" required placeholder="Номер телефона *"></p>
+
+      <p><input type="checkbox" id="agree" name="agree" required>
+      <label for="agree">Согласен с обработкой персональных данных</label>
+      <button id="submit" type="submit">Отправить</button></p>
+    </form>
+  </div>
+
+  <script>
+    const showFormButton = document.getElementById('showFormButton');
+    const formContainer = document.getElementById('formContainer');
+    const content = document.getElementById('content');
+
+    showFormButton.addEventListener('click', () => {
+      formContainer.style.display = 'block';
+      content.style.filter = "blur(6px)"
+    });
+  </script>
 </body>
 </html>
