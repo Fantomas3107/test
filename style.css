@@ -50,7 +50,7 @@ margin-top: 5vh;
     width: 50vw;
     height: 50vh;
     background-size: cover;
-    background-image: url('https://img.freepik.com/free-photo/top-view-peas-pod_23-2148893672.jpg?t=st=1729177211~exp=1729180811~hmac=f31c4b3a7ef1aaf12498d38561a35b876cc6b16f32ef727f173dbde543427cae&w=740');
+    background-image: url('./image/peas.png');
     margin: 20px 20px 10px 0;
     align-self: stretch;
     border-radius: 1vh;
@@ -89,6 +89,7 @@ margin-top: 5vh;
     background: white
 }
 
+
 .product2-1{
     display: block;
     flex-direction: column;
@@ -98,7 +99,7 @@ margin-top: 5vh;
     align-self: stretch;
     border-radius: 1vh;
     background-size: cover;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf_5AlvITbKuJzzpTj05zU77_k-jWXJVmfBQ&s');
+    background-image: url('./image/blueberry.png');
     opacity: 0.8;
     transition: 0.5s;
 }
@@ -116,7 +117,7 @@ margin-top: 5vh;
     align-self: stretch;
     border-radius: 1vh;
     background-size: cover;
-    background-image: url('https://www.mosregfermer.ru/upload/iblock/a6e/a6e9f10929caae834b82295151cd65e0.jpg');
+    background-image: url('./image/carrot.png');
     opacity: 0.8;
     transition: 0.5s;
 }
@@ -143,13 +144,13 @@ margin-top: 5vh;
 
 .high1{
     height: 50%; 
-    background-image: url("https://sun9-62.userapi.com/impg/ffIUyOd438CqK1dUNuXSnmpUePDeMNQgTVfQSw/XJ-Rs6hAAw4.jpg?size=510x510&quality=95&sign=cd45796e977a18384442ae2d69b84458&type=album");
+    background-image: url("./image/popcorn.png");
     background-size: cover;
 }
 
 .high2{
     height: 50%; 
-    background-image: url("https://static.insales-cdn.com/images/products/1/5194/464663626/WhatsApp_Image_2021-08-17_at_14.29.35.jpeg");
+    background-image: url("./image/plombir.png ");
     background-size: cover;
 }
 
